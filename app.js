@@ -2,11 +2,14 @@ import { storeCookie } from './StorageTasks123/moduleF01.js';
 import cookieHandler from './StorageTasks123/moduleF02.js';
 import { toDiv, toDiv2 } from './StorageTasks123/moduleF03.js';
 
-storeCookie();
+// 1.
+// storeCookie();
 
-console.log(cookieHandler.getCookies());
+// 2.
+// console.log(cookieHandler.getCookies());
 // console.log(cookieHandler.storeInSessionStorage());
 // console.log(cookieHandler.deleteCookies());
 
-toDiv();
-toDiv2();
+// 3.
+// toDiv(document.querySelector('#container'));
+toDiv2(document.querySelector('#container'));
